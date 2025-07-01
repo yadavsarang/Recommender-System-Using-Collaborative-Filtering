@@ -9,15 +9,15 @@
 - Recommendation logic based on pre-computed similarity scores
 
 # 🗂️ Project Structure
-├── app.py                     # Flask app with routing and recommendation logic
-├── index.html                 # Homepage template (Top 50 books)
-├── recommend.html             # Recommendation page template
-├── pouplar.pkl                # Pickled DataFrame of top-rated books
-├── pt.pkl                     # Pivot table (user-book matrix)
-├── books.pkl                  # Book metadata
-├── similarity_scores.pkl      # Precomputed similarity matrix
-├── BOOK-RECOMMENDATION(...)   # Jupyter notebook with Matrix Factorization model
-├── Book Recommender System(...) # Jupyter notebook with Classification-based logic
+- ├── app.py                     # Flask app with routing and recommendation logic
+- ├── index.html                 # Homepage template (Top 50 books)
+- ├── recommend.html             # Recommendation page template
+- ├── pouplar.pkl                # Pickled DataFrame of top-rated books
+- ├── pt.pkl                     # Pivot table (user-book matrix)
+- ├── books.pkl                  # Book metadata
+- ├── similarity_scores.pkl      # Precomputed similarity matrix
+- ├── BOOK-RECOMMENDATION(...)   # Jupyter notebook with Matrix Factorization model
+- ├── Book Recommender System(...) # Jupyter notebook with Classification-based logic
 
 # 🛠️ Tech Stack
 - Frontend: HTML5, CSS3, Bootstrap 5
